@@ -10,10 +10,6 @@ AppDataSource.initialize().then(() => {
   app.use(cors());
   app.use(routes);
 
-  app.get("/", (req, res) => {
-    return res.json("testing");
-  });
-
   return app.listen(process.env.PORT, () =>
     console.log("listening on port " + process.env.PORT)
   );
