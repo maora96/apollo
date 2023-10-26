@@ -26,8 +26,9 @@ $ npm run dev
 
 ## Questions 
 
-1. What would be your first improvements if you had more implementation time?
-  I would implemente a more rigorous type check both in the backend and the frontend (ex, making sure error handling is good if someone tries to input letters instead of numbers in the price field when adding new products).
+# What would be your first improvements if you had more implementation time?
+
+I would implemente a more rigorous type check both in the backend and the frontend (ex, making sure error handling is good if someone tries to input letters instead of numbers in the price field when adding new products).
 3. Thinking about your solution, how would maintenance be in case of adding new product
 categories? What would need to be changed?
   Nothing. There is already an endpoint to create new categories. The developer would only need to create a new one through it (sending a post request to /category) and the list of categories would automatically be updated.
