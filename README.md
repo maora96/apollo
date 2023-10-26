@@ -7,11 +7,13 @@ A small web app that lets the user register new products as well as visualize th
 ## Installation - Backend
 
 You need to install and run the backend first. Once the project is downloaded, follow these steps:
+
 ```bash
 $ create a postgres database on your local machine
 $ cd backend
 $ fill the necessary information in a .env file following the example of env-teste
 $ npm install
+$ npm run migration:run
 $ npm run dev
 ```
 
@@ -24,7 +26,7 @@ $ npm install
 $ npm run dev
 ```
 
-## Questions 
+## Questions
 
 ### What would be your first improvements if you had more implementation time?
 
