@@ -26,7 +26,7 @@ $ npm run dev
 
 ## Questions 
 
-# What would be your first improvements if you had more implementation time?
+### What would be your first improvements if you had more implementation time?
 
 I would implemente a more rigorous type check both in the backend and the frontend (ex, making sure error handling is good if someone tries to input letters instead of numbers in the price field when adding new products).
 3. Thinking about your solution, how would maintenance be in case of adding new product
